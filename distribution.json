@@ -11,7 +11,7 @@
       "id": "DDuner-1.20.1",
       "name": "DDuner (Minecraft 1.20.1)",
       "description": "DDuner Running Minecraft 1.20.1 (Forge v47.2.32)",
-      "icon": null,
+      "icon": "assets/images/server-icon.png",
       "version": "1.0.0",
       "address": "26.234.144.66:25565",
       "minecraftVersion": "1.20.1",
