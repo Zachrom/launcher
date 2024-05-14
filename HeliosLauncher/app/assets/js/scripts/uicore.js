@@ -40,6 +40,7 @@ webFrame.setVisualZoomLevelLimits(1, 1)
 let updateCheckListener
 if(!isDev){
     ipcRenderer.on('autoUpdateNotification', (event, arg, info) => {
+        // console.log(arg)
         switch(arg){
             case 'checking-for-update':
                 loggerAutoUpdater.info('Checking for update..')
@@ -75,6 +76,7 @@ if(!isDev){
                 ipcRenderer.send('autoUpdateAction', 'checkForUpdate')
                 break
             case 'realerror':
+                // console.log(info)
                 if(info != null && info.code != null){
                     if(info.code === 'ERR_UPDATER_INVALID_RELEASE_FEED'){
                         loggerAutoUpdater.info('No suitable releases found.')

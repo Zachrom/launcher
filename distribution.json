@@ -20,8 +20,8 @@
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
-      "autoconnect": true,
+      "mainServer": false,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.2.32",
@@ -490,6 +490,16 @@
             "size": 1127828,
             "url": "https://github.com/Zachrom/launcher/raw/main/servers/DDuner-1.20.1/forgemods/required/jei-1.20.1-forge-15.3.0.4.jar",
             "MD5": "8f2c0bbb8f691be76f0b44c1d61d94e7"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.9.21@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7139656,
+            "url": "https://github.com/Zachrom/launcher/raw/main/servers/DDuner-1.20.1/forgemods/required/journeymap-1.20.1-5.9.21-forge.jar",
+            "MD5": "6c3ec9eb4f495fce1f5b72620fdd5c83"
           }
         },
         {
