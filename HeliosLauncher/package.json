@@ -1,7 +1,7 @@
 {
   "name": "launcher",
   "version": "1.0.0",
-  "productName": "Launcher",
+  "productName": "DDunerLauncher",
   "description": "Modded Minecraft Launcher",
   "author": "Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",

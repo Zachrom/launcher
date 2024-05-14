@@ -1,5 +1,5 @@
-appId: 'Launcher'
-productName: 'Launcher'
+appId: 'DDunerLauncher'
+productName: 'DDunerLauncher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
 copyright: 'Copyright © 2018-2024 Daniel Scalzi'
